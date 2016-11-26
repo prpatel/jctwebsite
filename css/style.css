@@ -385,17 +385,19 @@ a:focus {
 }
 
 .underline-tagline {
-  width: 360px;
-  height: 8px;
-  margin: -25px auto 0px auto;
-  background-color: #fac552;
+    display: inline;
+    text-decoration: none;
+    border-bottom: 8px solid #fac552;
+    margin-bottom: -1px;
+    padding-bottom: -30px;
 }
 
-.underline-tagline-left {
-  width: 320px;
-  height: 8px;
-  margin: -25px auto 0px 0px;
-  background-color: #fac552;
+.underline-tagline-gray {
+  display: inline;
+  text-decoration: none;
+  border-bottom: 8px solid #efefef;
+  margin-bottom: -1px;
+  padding-bottom: -30px;
 }
 
 #about {
@@ -418,11 +420,4 @@ a:focus {
   padding-top: 50px;
   background-color: #fff;
   border-bottom: solid 1px #e7e7e7;
-}
-
-.underline-tagline-gray {
-  width: 160px;
-  height: 8px;
-  margin: -25px auto 0px 0;
-  background-color: #efefef;
 }
