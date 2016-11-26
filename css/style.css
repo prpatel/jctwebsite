@@ -13,6 +13,9 @@ License: Apache License v2.0
 body {
   font-family: 'Didact Gothic', sans-serif;
   color: #444;
+  padding-left: 8px;
+  padding-right: 8px;
+  background-color: #0093ba
 }
 h1,
 h2,
@@ -321,7 +324,6 @@ a:focus {
   padding: 40px 0;
   color: #ccc;
   text-align: center;
-  background-color: #2a3940;
 }
 #footer a,
 #footer a:hover,
@@ -409,6 +411,12 @@ a:focus {
 
 #contact {
   padding-top: 50px;
+  background-color: #fff;
+  border-bottom: solid 1px #e7e7e7;
+}
+#conduct {
+  padding-top: 50px;
+  background-color: #fff;
   border-bottom: solid 1px #e7e7e7;
 }
 
