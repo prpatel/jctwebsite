@@ -19,9 +19,10 @@ function initNavbar() {
 
     $navTop.find('.navbar-default').affix({
         offset: {
-            top: $('#home').height()
+            top: $('#about').height() + $('#home').height() + 51
         }
     });
+
 
     $navExternal.click(function(e) {
         e.preventDefault();
