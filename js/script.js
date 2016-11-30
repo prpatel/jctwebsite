@@ -19,7 +19,7 @@ function initNavbar() {
 
     $navTop.find('.navbar-default').affix({
         offset: {
-            top: $('#about').height() + $('#home').height() + 51
+            top: $('#home').height()
         }
     });
 
@@ -120,6 +120,20 @@ $(document).ready(function() {
                     titleattr: 'data-title'
                 });
     initNavbar();
+    $(".navbar").hide();
+
+   // fade in .navbar
+   $(function () {
+       $(window).scroll(function () {
+
+                // set distance user needs to scroll before we start fadeIn
+           if ($(this).scrollTop() > 100) {
+               $('.navbar').fadeIn();
+           } else {
+               $('.navbar').fadeOut();
+           }
+       });
+   });
     // initPortfolio();
     // remove the animations
     // initAnimations();

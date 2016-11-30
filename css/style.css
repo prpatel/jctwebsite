@@ -43,7 +43,7 @@ a:focus {
           border-radius: 8px;
 }
 .btn {
-  font-size: 12px;
+  font-size: 16px;
   font-weight: bold;
   text-transform: uppercase;
   -webkit-border-radius: 2px;
@@ -113,7 +113,8 @@ a:focus {
   text-transform: uppercase;
 }
 .navbar-default .navbar-nav > li > a {
-  font-weight: 600;
+  letter-spacing: 3px;
+  font-size: 18px;
   text-transform: uppercase;
 }
 .navbar-default .navbar-nav > .active > a,
@@ -137,12 +138,17 @@ a:focus {
      -moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.3);
           box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.3);
 }
+
+.navbar-header {
+  /*padding: 20px 0 10px 0;*/
+}
+
 .page {
   overflow: hidden;
   /*padding-top: 50px;*/
   padding-bottom: 50px;
 }
-.page .content { padding: 20px 0 }
+.page .content { padding: 50px 0 }
 .page .content.cover { padding: 300px 0 }
 .page .heading h2 {
   margin-top: 0;
@@ -376,7 +382,7 @@ a:focus {
 }
 
 .img-center {
-  margin-top: -150px;
+  margin-top: -50px;
   width: 80%;
 }
 
@@ -433,4 +439,10 @@ a:focus {
 
 .imagery {
   margin-bottom: 30px;
+  width: 100%;
+}
+
+[class*="col-"] {
+    padding-left: 30px;
+    padding-right: 30px;
 }
