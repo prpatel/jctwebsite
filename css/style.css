@@ -168,10 +168,10 @@ a:focus {
 #home {
   padding: 0;
   color: #fff;
-  background-image: url(../img/cover/splash.png);
+  /*background-image: url(../img/cover/splashshort.png);
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: cover;
+  background-size: cover;*/
 }
 #home h1 {
   margin-top: 0;
@@ -382,8 +382,8 @@ a:focus {
 }
 
 .img-center {
-  margin-top: -50px;
-  width: 80%;
+  /*margin-top: -50px;*/
+  width: 100%;
 }
 
 .chrysler {
