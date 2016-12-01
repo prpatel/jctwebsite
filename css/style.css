@@ -108,6 +108,10 @@ a:focus {
      -moz-border-radius: 0;
           border-radius: 0;
 }
+.navbar-brand {
+  font-size: 30px;
+  line-height: 35px;
+}
 .navbar-default .navbar-brand {
   font-weight: 600;
   text-transform: uppercase;
