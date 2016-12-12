@@ -423,7 +423,19 @@ a:focus {
   border-bottom: solid 1px #e7e7e7;
 }
 
+#cfp {
+  padding-top: 50px;
+  background-color: #fac552;
+  border-bottom: solid 1px #e7e7e7;
+}
+
 #contact {
+  padding-top: 50px;
+  background-color: #fff;
+  border-bottom: solid 1px #e7e7e7;
+}
+
+#register {
   padding-top: 50px;
   background-color: #fff;
   border-bottom: solid 1px #e7e7e7;
@@ -438,6 +450,12 @@ a:focus {
 #conduct {
   padding-top: 50px;
   background-color: #fff;
+  border-bottom: solid 1px #e7e7e7;
+}
+
+#team {
+  padding-top: 50px;
+  background-color: #efefef;
   border-bottom: solid 1px #e7e7e7;
 }
 
