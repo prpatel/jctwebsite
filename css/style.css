@@ -539,3 +539,19 @@ a:focus {
 .speaker-list {
   height: 275px;
 }
+
+.schedule-odd {
+  background-color: #efefef;
+}
+
+.schedule-even {
+  background-color: white;
+}
+
+.left-text {
+  text-align: left;
+}
+
+.yellow {
+  background-color: #fac552;
+}
