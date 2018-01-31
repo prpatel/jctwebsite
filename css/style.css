@@ -555,3 +555,10 @@ a:focus {
 .yellow {
   background-color: #fac552;
 }
+
+.col-8{
+  float: left;
+  width: 12.5%;
+  margin: 0;
+  padding: 0;
+}
